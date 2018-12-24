@@ -1,0 +1,17 @@
+@keyframes biggersmaller{
+    from{
+        font-size: 4vh;
+    }
+
+    to{
+        font-size: 10vh;
+    }
+}
+
+#text{
+   color: blue;
+   font-size: 3vh;
+   animation-name: biggersmaller;
+   animation-duration: 2s;
+   animation-direction: alternate;
+}
